@@ -1,16 +1,23 @@
 import './App.css'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar.jsx'
+import Home from './pages/Home.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img
-          src="/images/form-photo.avif"
-          alt="a paper form that someone is filling out"
-          className="home-form"
-        />
-        <p>Form practice!</p>
+    <div>
+      <header>
+        <Navbar />
       </header>
+      <main>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </Router>
+      </main>
+      <footer></footer>
     </div>
   )
 }
