@@ -48,7 +48,7 @@ input{
 }
          
 .btn-grad {
-  background-image: linear-gradient(to right, #e57e7c, #c93d3f);
+  background-image: linear-gradient(to right, #e57e7c, #9c3132);
   margin: 10px;
   padding: 8px 30px;
   text-align: center;
@@ -61,6 +61,7 @@ input{
   border: none;
   display: block;
   margin: auto;
+  font-weight: bold
 }
 
 .btn-grad:hover {
