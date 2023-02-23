@@ -7,9 +7,9 @@ import Home from './pages/Home.jsx'
 function App() {
   return (
     <div>
-      <header>
+      <div>
         <Navbar />
-      </header>
+      </div>
       <main>
         <Router>
           <Routes>
