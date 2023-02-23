@@ -13,9 +13,11 @@ function Navbar() {
       <h3>Forms</h3>
       <div>
         <nav ref={navRef} className="nav-right">
-          <a href="/#">Home</a>
-          <a href="/#">Home</a>
-          <a href="/#">Home</a>
+          <a href="/">Home</a>
+          <a href="/Feedback">Feedback</a>
+          <a href="/#">All</a>
+          <a href="/#">Demo</a>
+          <a href="/#">Dog</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>
