@@ -14,10 +14,10 @@ function Navbar() {
       <div>
         <nav ref={navRef} className="nav-right">
           <a href="/">Home</a>
-          <a href="/Feedback">Feedback</a>
-          <a href="/#">All</a>
-          <a href="/#">Demo</a>
-          <a href="/#">Dog</a>
+          <a href="/Feedback">Feedback-form</a>
+          <a href="/All">All-form</a>
+          <a href="/#">Demo-form</a>
+          <a href="/#">Dog-form</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>
