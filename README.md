@@ -1,6 +1,6 @@
 Practice making forms based on an image using plain CSS and HTML.
 
-
+![pink form](public/images/comparison-images/pink-form-practice.png)
 
 # Getting Started with Create React App
 
