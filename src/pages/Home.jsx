@@ -11,6 +11,9 @@ function Home() {
           className="home-form"
         />
         <p>Form practice!</p>
+        <p>
+          I have used module.css so that each page will use its own css file.
+        </p>
       </header>
     </div>
   )
