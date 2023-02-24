@@ -72,6 +72,16 @@ function All() {
           </div>
         </form>
       </div>
+      <div className={styles.note}>
+        <p>
+          Most challenging aspects: Creating the two columns, I hadn't done that
+          much before. Trying to know the names of some of these input types so
+          that I couuld search how to make them. The "Text Field with Add-Ons"
+          and "Multiselect Field", I had no idea about how these are created. I
+          hadn't added a search icon inside an input field but it wasn't too
+          bad.
+        </p>
+      </div>
     </div>
   )
 }

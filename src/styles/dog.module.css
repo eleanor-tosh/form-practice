@@ -1,0 +1,22 @@
+.container{
+  background-color:#85879c;
+  align-content: center;
+  padding-bottom: 40px;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.formdog{
+  align-content: center;
+  width:45%;
+  background-color: #f6ecea;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+}

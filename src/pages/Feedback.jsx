@@ -39,6 +39,12 @@ function Feedback() {
             <button className={styles.btngrad}>SUBMIT</button>
           </form>
         </div>
+        <div className={styles.note}>
+          <p>
+            Most challenging aspects: I hadn't done a gradient before on a
+            button or on a background. I couldn't find the correct font.
+          </p>
+        </div>
       </div>
     </div>
   )
