@@ -14,7 +14,6 @@
 .formpg{
   align-content: center;
   width:38.5%;
-  border-radius: 5;
   background-color: white;
   margin: 40px auto;
   padding: 40px;
@@ -22,14 +21,14 @@
   text-align: center;
 }
 
-img{
+.img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-input{
+.input{
   display: block;
   width: 80%;
   margin: 22px auto;
