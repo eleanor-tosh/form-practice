@@ -1,9 +1,9 @@
 import React from 'react'
-import '../styles/feedback.css'
+import styles from '../styles/all.module.css'
 
 function All() {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <div>
         <img
           src="/images/cover-all-form.webp"

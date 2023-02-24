@@ -1,0 +1,12 @@
+.container{
+  background-color: #e8e8e8;
+  align-content: center;
+  padding-bottom: 40px;
+}
+
+h2{
+  font-weight: bold;
+  color: #b9c738;
+  font-family: arial;
+  padding: 25px
+}

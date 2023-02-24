@@ -1,29 +1,42 @@
 import React from 'react'
-import '../styles/feedback.css'
+import styles from '../styles/feedback.module.css'
 
 function Feedback() {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <div>
         <img
+          className={styles.img}
           src="/images/basic-feedback.png"
           alt="feedback form to replicate"
         />
       </div>
       {/* Form */}
       <div>
-        <div className="form-pg">
+        <div className={styles.formpg}>
           <form>
-            <h2>FEEDBACK FORM</h2>
-            <input type="string" placeholder="Name"></input>
-            <input type="string" placeholder="Email"></input>
-            <input type="string" placeholder="Subject"></input>
+            <h2 className={styles.h2}>FEEDBACK FORM</h2>
             <input
-              className="textarea"
+              type="string"
+              placeholder="Name"
+              className={styles.input}
+            ></input>
+            <input
+              type="string"
+              placeholder="Email"
+              className={styles.input}
+            ></input>
+            <input
+              type="string"
+              placeholder="Subject"
+              className={styles.input}
+            ></input>
+            <input
+              className={`${styles.input} ${styles.textarea}`}
               type="textarea"
               placeholder="Message"
             ></input>
-            <button className="btn-grad">SUBMIT</button>
+            <button className={styles.btngrad}>SUBMIT</button>
           </form>
         </div>
       </div>
