@@ -12,7 +12,8 @@ function Home() {
         />
         <p>Form practice!</p>
         <p>
-          I have used module.css so that each page will use its own css file.
+          I have used module.css so that each page will use its own CSS file. No
+          frameworks, just plain CSS.
         </p>
       </header>
     </div>
