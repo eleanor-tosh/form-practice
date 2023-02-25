@@ -89,7 +89,7 @@ function All() {
           that I couuld search how to make them. The "Text Field with Add-Ons"
           and "Multiselect Field", I had no idea about how these are created. I
           hadn't added a search icon inside an input field but it wasn't too
-          bad.
+          bad. I think some of these button styles need a framework or library.
         </p>
       </div>
     </div>
