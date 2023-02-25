@@ -79,6 +79,23 @@ function All() {
               />
               <span className={styles.plus}>+</span>
             </div>
+            <label>
+              <input type="checkbox" checked></input> Checkbox
+            </label>
+            <br></br>
+            <br></br>
+            <label>
+              <input type="radio" checked></input> Radio Button
+            </label>
+            <br></br>
+            <br></br>
+            <label>
+              <div className={styles.switch}>
+                <input className={styles.inputswitch} type="checkbox"></input>
+                <span className={styles.slider}></span>
+              </div>
+              Switch
+            </label>
           </div>
         </form>
       </div>
