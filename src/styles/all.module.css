@@ -64,3 +64,31 @@
   width: 80%;
   margin: auto
 }
+
+
+		.minus{
+			width:30px;
+      margin-top: -15px;
+			height:30px;
+			border-radius:5px;
+			border:1px solid #ddd;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+		}
+
+    .plus{
+			width:30px;
+      margin-top: -15px;
+			height:30px;
+			border-radius:5px;
+			border:1px solid #ddd;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+		}
+	.numinput{
+      width: 20%;
+      text-align: center;
+      display: inline-block;
+      vertical-align: middle;}

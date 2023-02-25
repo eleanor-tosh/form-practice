@@ -69,6 +69,16 @@ function All() {
               placeholder="Search"
               className={`${styles.input} ${styles.search}`}
             ></input>
+
+            <div>
+              <span className={styles.minus}>-</span>
+              <input
+                className={`${styles.input} ${styles.numinput}`}
+                type="text"
+                value="1"
+              />
+              <span className={styles.plus}>+</span>
+            </div>
           </div>
         </form>
       </div>
