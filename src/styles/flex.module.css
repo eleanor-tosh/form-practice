@@ -1,0 +1,42 @@
+.formflex{
+  width:38.5%;
+  background-color: white;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.signin{
+  background-color: rgb(63, 153, 212);
+  color:white;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  font-size:2rem;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+padding: 5px;
+font-weight: bold;
+border-width: 1px;
+max-width: 30%;
+}
+
+.buttondiv{
+text-align: right;
+}
+
+.flexer{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  margin: 10px;
+}
+
+.inputs{
+  display: flex;
+}
