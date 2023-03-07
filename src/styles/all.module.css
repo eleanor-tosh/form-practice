@@ -149,3 +149,16 @@
 .slider:before {
   border-radius: 50%;
 }
+
+.segmented{
+  position:relative;
+  display:inline;}
+
+
+.labelspan { 
+    padding: 1em 2em 1em 2em;
+    border: 2px  solid #dfdfdf; 
+    background: #efefef ;
+    position:relative;
+    z-index:10;
+}

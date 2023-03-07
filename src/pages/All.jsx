@@ -79,6 +79,20 @@ function All() {
               />
               <span className={styles.plus}>+</span>
             </div>
+            {/* Segmented button */}
+            <div className={styles.segmented}>
+              <label className={styles.labelspan}>
+                <input type="radio"></input>
+
+                <span>Label</span>
+              </label>
+              <label>
+                <input type="radio"></input>
+
+                <span>Label</span>
+              </label>
+            </div>
+
             <label>
               <input type="checkbox" checked></input> Checkbox
             </label>

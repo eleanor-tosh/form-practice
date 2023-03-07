@@ -6,6 +6,7 @@ import Home from './pages/Home.jsx'
 import Feedback from './pages/Feedback.jsx'
 import All from './pages/All.jsx'
 import Dog from './pages/Dog.jsx'
+import Flex from './pages/Flex.jsx'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/Feedback" element={<Feedback />} />
             <Route path="/All" element={<All />} />
             <Route path="/Dog" element={<Dog />} />
+            <Route path="/Flex" element={<Flex />} />
           </Routes>
         </Router>
       </main>
