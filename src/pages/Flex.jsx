@@ -9,11 +9,11 @@ function Flex() {
         <div className={styles.inputs}>
           <div className={styles.flexer}>
             <label>Email</label>
-            <input placeholder="email" />
+            <input className={styles.inputbox} placeholder="email" />
           </div>
           <div className={styles.flexer}>
             <label>Password</label>
-            <input placeholder="password" />
+            <input className={styles.inputbox} placeholder="password" />
           </div>
         </div>
         <div className={styles.buttondiv}>

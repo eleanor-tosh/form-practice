@@ -40,3 +40,7 @@ text-align: right;
 .inputs{
   display: flex;
 }
+
+.inputbox{ 
+  padding: 2.5px;
+}
