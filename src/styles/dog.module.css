@@ -12,11 +12,114 @@
 }
 
 .formdog{
-  align-content: center;
+  /* align-content: center; */
+  display: flex;
+  flex-direction: row;
   width:45%;
   background-color: #f6ecea;
   margin: 40px auto;
-  padding: 40px;
-  border-radius: 15px;
+  border-radius: 10px;
   text-align: center;
+}
+
+.flexer{
+  flex-direction: column;
+  flex:1;
+}
+
+.graydiv{
+background-color: gray;
+border-radius: 10px 0px 0px 10px;
+flex: 0.68;
+}
+
+.divwhite{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0px 0px 10px 0px
+}
+
+.backbtn{
+  background-color: white;
+  border-radius: 20px;
+  padding: 2px;
+  margin: 15px auto;
+  width: 80px;
+  border:thin solid #85879c;
+  color:#85879c;
+  font-size: 0.75rem;
+}
+
+.nextbtn{
+  background-color: #545871;
+  border-radius: 20px;
+  padding: 2px;
+  margin: 15px auto;
+  width: 80px;
+  border:thin solid #545871;
+  color:white;
+  font-size: 0.75rem;
+}
+
+.rows{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 40px;
+  text-align: left;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input{
+  width: 90%;
+  border: thin solid #e7e0dd;
+}
+
+::placeholder{
+  color: #e7e0dd;
+  font-size:0.75rem;
+  padding:10px
+}
+
+.label{
+  color:#545871;
+  font-size: 0.75rem;
+  margin-top: 8px
+}
+
+.weight{
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  margin: auto
+}
+
+.formweight{
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  padding: 0.5rem 0;
+  width: 80%;
+  font-size: 0.6rem;
+  border: thin solid #e7e0dd;
+}
+
+.formweightlabel{
+  padding: 0.25rem 1rem;
+  border-radius: 2px;
+}
+
+.radioinput input[type='radio']{
+  display:none;
+}
+
+#weight-1:checked + label, #weight-2:checked + label, #weight-3:checked + label, #weight-4:checked + label{
+background-color: #ecd0cf;
+border: 1px solid #e7e0dd;
 }

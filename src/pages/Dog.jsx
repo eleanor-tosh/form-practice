@@ -12,7 +12,88 @@ function Dog() {
         />
       </div>
       {/* Form */}
-      <form className={styles.formdog}></form>
+
+      <form className={styles.formdog}>
+        <div className={`${styles.flexer} ${styles.graydiv}`}>
+          <h1>PAWTASTIC</h1>
+        </div>
+        <div className={styles.flexer}>
+          <h1>Yay, we love dogs! Give us the basics about your pup.</h1>
+          <div className={styles.rows}>
+            <div className={styles.column}>
+              <label for="name" className={styles.label}>
+                Name
+              </label>
+              <input
+                placeholder="Pet's name"
+                id="name"
+                className={styles.input}
+              ></input>
+              <label for="breed" className={styles.label}>
+                Breed
+              </label>
+              <input
+                placeholder="Pet's breed"
+                id="breed"
+                className={styles.input}
+              ></input>
+              <label for="gender" className={styles.label}>
+                Gender
+              </label>
+              <input className={styles.input}></input>
+            </div>
+            <div className={styles.column}>
+              <label for="photo" className={styles.label}>
+                Upload a photo
+              </label>
+              <input className={styles.input}></input>
+              <label for="birthday" className={styles.label}>
+                Birthday
+              </label>
+              <input
+                placeholder="MM/DD/YYYY"
+                id="birthday"
+                className={styles.input}
+              ></input>
+              <label className={styles.label}>Spayed or Neutered</label>
+              <input className={styles.input}></input>
+            </div>
+          </div>
+
+          <div className={styles.weight}>
+            <span className={styles.label}>Weight</span>
+
+            <div className={styles.formweight}>
+              <input
+                type="radio"
+                id="weight-1"
+                checked
+                className={styles.radioinput}
+              ></input>{' '}
+              <label for="weight-1" className={styles.formweightlabel}>
+                0-25 lbs
+              </label>
+              <input type="radio" id="weight-2" checked></input>{' '}
+              <label for="weight-2" className={styles.formweightlabel}>
+                25-50 lbs
+              </label>
+              <input type="radio" id="weight-3"></input>
+              <label for="weight-3" className={styles.formweightlabel}>
+                50-100 lbs
+              </label>
+              <input type="radio" id="weight-4"></input>
+              <label for="weight-4" className={styles.formweightlabel}>
+                100+ lbs
+              </label>
+            </div>
+          </div>
+
+          <div className={styles.divwhite}>
+            <button className={styles.backbtn}>Back</button>
+            <button className={styles.nextbtn}>Next</button>
+          </div>
+        </div>
+      </form>
     </div>
   )
 }
