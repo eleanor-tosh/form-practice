@@ -77,11 +77,11 @@ flex: 0.68;
 
 .input{
   width: 90%;
-  border: thin solid #e7e0dd;
+  border: thin solid #ecd0cf;
 }
 
 ::placeholder{
-  color: #e7e0dd;
+  color: #ecd0cf;
   font-size:0.75rem;
   padding:10px
 }
@@ -99,21 +99,21 @@ flex: 0.68;
   flex:1;
 }
 
-.formweight{
+.formweight, .spey{
   background-color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items:center;
-  padding: 0.2rem 0;
+  padding: 0.2rem 3px;
   width: 75%;
   font-size: 0.6rem;
-  border: thin solid #e7e0dd;
+  border: thin solid #ecd0cf;
   margin: 0px auto;
   margin-bottom: 40px;
 }
 
-.container label{
-  
+.weight label{
+  padding: 0px 8px;
   border-radius: 2px;
 }
 
@@ -123,6 +123,7 @@ flex: 0.68;
 }
 
 .radioinput1:checked + label, .radioinput2:checked + label, .radioinput3:checked + label, .radioinput4:checked + label{
-background-color: #e7e0dd;
-border: 1px solid #e7e0dd;
+background-color: #ecd0cf;
+border: 1px solid #ecd0cf;
+padding: 0px 8px;
 }
