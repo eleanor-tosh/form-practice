@@ -37,4 +37,11 @@
       "last 1 safari version"
     ]
   }
+  {
+    "name": "form-app",
+    "description": "form app",
+    "engines": {
+      "node": "18.x"
+    }
+  }
 }
