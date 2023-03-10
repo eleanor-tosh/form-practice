@@ -89,14 +89,14 @@ flex: 0.68;
 .label{
   color:#545871;
   font-size: 0.75rem;
-  margin-top: 8px
+  margin-top: 8px;
+  text-align: left;
 }
 
 .weight{
   display:flex;
   flex-direction: column;
   flex:1;
-  margin: auto
 }
 
 .formweight{
@@ -104,22 +104,25 @@ flex: 0.68;
   display: flex;
   justify-content: space-evenly;
   align-items:center;
-  padding: 0.5rem 0;
-  width: 80%;
+  padding: 0.2rem 0;
+  width: 75%;
   font-size: 0.6rem;
   border: thin solid #e7e0dd;
+  margin: 0px auto;
+  margin-bottom: 40px;
 }
 
-.formweightlabel{
-  padding: 0.25rem 1rem;
+.container label{
+  
   border-radius: 2px;
 }
 
-.radioinput input[type='radio']{
+.container input[type='radio']{
   display:none;
+
 }
 
-#weight-1:checked + label, #weight-2:checked + label, #weight-3:checked + label, #weight-4:checked + label{
-background-color: #ecd0cf;
+.radioinput1:checked + label, .radioinput2:checked + label, .radioinput3:checked + label, .radioinput4:checked + label{
+background-color: #e7e0dd;
 border: 1px solid #e7e0dd;
 }

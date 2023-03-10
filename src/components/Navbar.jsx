@@ -18,7 +18,6 @@ function Navbar() {
           <a href="/All">All-form</a>
           <a href="/#">Demo-form</a>
           <a href="/Dog">Dog-form</a>
-          <a href="/Flex">Flex</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>

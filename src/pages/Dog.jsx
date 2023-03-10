@@ -66,22 +66,38 @@ function Dog() {
             <div className={styles.formweight}>
               <input
                 type="radio"
+                name="weight"
                 id="weight-1"
                 checked
-                className={styles.radioinput}
-              ></input>{' '}
+                className={styles.radioinput1}
+              ></input>
               <label for="weight-1" className={styles.formweightlabel}>
                 0-25 lbs
               </label>
-              <input type="radio" id="weight-2" checked></input>{' '}
+              <input
+                name="weight"
+                type="radio"
+                id="weight-2"
+                className={styles.radioinput2}
+              ></input>{' '}
               <label for="weight-2" className={styles.formweightlabel}>
                 25-50 lbs
               </label>
-              <input type="radio" id="weight-3"></input>
+              <input
+                name="weight"
+                type="radio"
+                id="weight-3"
+                className={styles.radioinput3}
+              ></input>
               <label for="weight-3" className={styles.formweightlabel}>
                 50-100 lbs
               </label>
-              <input type="radio" id="weight-4"></input>
+              <input
+                name="weight"
+                type="radio"
+                id="weight-4"
+                className={styles.radioinput4}
+              ></input>
               <label for="weight-4" className={styles.formweightlabel}>
                 100+ lbs
               </label>
