@@ -16,6 +16,7 @@ function Dog() {
       <form className={styles.formdog}>
         <div className={`${styles.flexer} ${styles.graydiv}`}>
           <h1>PAWTASTIC</h1>
+          <p>Save and edit</p>
         </div>
         <div className={styles.flexer}>
           <h1>Yay, we love dogs! Give us the basics about your pup.</h1>
@@ -37,16 +38,32 @@ function Dog() {
                 id="breed"
                 className={styles.input}
               ></input>
-              <label for="gender" className={styles.label}>
-                Gender
-              </label>
-              <input className={styles.input}></input>
+              <span className={styles.label}>Gender</span>
+
+              <div className={styles.gender}>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="gender-1"
+                  checked
+                  className={styles.radioinput1}
+                ></input>
+                <label for="gender-1">Female</label>
+
+                <input
+                  type="radio"
+                  name="gender"
+                  id="gender-2"
+                  className={styles.radioinput2}
+                ></input>
+                <label for="gender-2">Male</label>
+              </div>
             </div>
             <div className={styles.column}>
               <label for="photo" className={styles.label}>
                 Upload a photo
               </label>
-              <input className={styles.input}></input>
+              <input className={`${styles.input} ${styles.photoinput}`}></input>
               <label for="birthday" className={styles.label}>
                 Birthday
               </label>
